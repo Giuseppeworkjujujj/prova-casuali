@@ -32,7 +32,7 @@ export default {
     height: 100px;
     background-color: #265ee9;
     width: 100%;
-  
+    margin-left: 0px;
     img{
       height: 50px;
     }
