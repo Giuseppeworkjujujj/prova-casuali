@@ -1,6 +1,6 @@
 <template>
 
-  <div class="row">
+  <div class="row-4">
       <div class="col-12 d-flex justify-content-center">
         <div class="col-12-2 d-flex justify-content-center">
           <h1 class="">Il tuo posto per parlare</h1>
@@ -24,7 +24,7 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang='scss' scoped>
- .row{
+ .row-4{
     height: 510px;
     width: 100%;
     
