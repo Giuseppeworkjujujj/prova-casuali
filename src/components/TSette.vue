@@ -27,7 +27,7 @@ export default {
     .roooor{
       h3{
         text-align: center;
-        margin-top: 40px;
+        padding-top: 30px;
       }
     }
     .rerr{

@@ -1,6 +1,6 @@
 <template>
 
-  <div class="row">
+  <div class="row-10">
     <div class="col-5 rar ">
       <img class="prima" src="../assets/item1(2).svg" alt="">
     </div>
@@ -19,22 +19,22 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang='scss' scoped>
-  .row{
+  .row-10{
     width: 100%;
-    height: 400px;
+    height: 450px;
+    display: flex;
     .rar{
-      position: relative;
       display: flex;
+      justify-content: center;
       align-items: center;
       .prima{
         width: 600px;
-        position: absolute;
-        top: 70px;
-        left: 100px;
       }
     }
     .ror{
       position: relative;
+      display: flex;
+      justify-content: center;
       
       h3{
         position: absolute;
@@ -43,8 +43,8 @@ export default {
       }
       p{
         position: absolute;
-        top: 250px;
-        width: 72%;
+        top: 255px;
+        width: 80%;
       }
     }
     @media screen and (max-width:1300px){

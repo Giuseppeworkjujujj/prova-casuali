@@ -47,7 +47,7 @@ export default {
       }
       p{
         position: absolute;
-        top: 250px;
+        top: 220px;
         width: 80%;
       }
     }
