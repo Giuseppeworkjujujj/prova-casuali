@@ -46,76 +46,71 @@ export default {
         top: 255px;
         width: 80%;
       }
-    }
-    @media screen and (max-width:1300px){
+    }}
+    @media screen and (max-width:1380px){
       .rar{
-      position: absolute;
-      display: flex;
-      justify-content: center;
-      right: 0px;
-      // border: 2px solid black;
-      height: 460px;
-      .prima{
+        padding-left: 100px;
+      }
+    }
+    @media screen and (max-width:1175px){
+      .row-10{
+                
+      .rar{
+        width: 99%;
+        display: flex;
+        justify-content: center;
+        margin-left: 0px;
+        .prima{
+          margin-left: -100px
+        }
+      }
+      .ror{
+        // width: 100%;
         position: absolute;
-        top: 50px;
-        width: 100%;
-      }
+        top: 850px;
+        width: 99%;
+        text-align: center;
 
+        h3{
+          width: 100%;
+        }
+
+        p{
+          margin-top: -40px;
+        }
       }
-    
-    .ror{
-      top: 475px;
-      width: 100%;
-      display: flex;
-      justify-content: center;
-      margin-left: 10px;
-      margin-right: 10px;
-      h3{
-        top: -20px;
-        width: 100%;
-        text-align: center;
-      }
-      p{
-        top: 20px;
-        width: 100%;
-        text-align: center;
-      }  
-    }
-    }
-      @media screen and (max-width:420px){
+    }}
+      @media screen and (max-width:750px){
+        .row-10{
         .rar{
-      display: flex;
-      justify-content: center;
-      // border: 2px solid black;
+      align-items: baseline;
       height: 285px;
       .prima{
-        position: absolute;
-        top: 20px;
-        left: 0px;
-        width: 100%;
+        width: 380px;
       }
 
       }
     
     .ror{
-      top: 300px;
-      width: 100%;
-      display: flex;
-      justify-content: center;
-      margin-left: 10px;
-      margin-right: 10px;
+    height: 200px;
       h3{
-        top: -15px;
-        width: 100%;
-        text-align: center;
+        top: 10px;
       }
       p{
-        top: 40px;
-        width: 100%;
-        text-align: center;
+        top: 110px;
       }  
     }
     }   
-
+    
+  }
+  @media screen and (max-width:540px){
+        .row-10{
+        .rar{
+      .prima{
+        // margin-left: -100px;
+      }
+      }
+    }   
+    
   }
 </style>

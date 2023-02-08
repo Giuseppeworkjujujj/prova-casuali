@@ -51,17 +51,20 @@ export default {
     }
   }
   @media screen and (max-width:991px){
+    .row{
     li{
       display: none;
     }
   }
   @media screen and (max-width:570px){
     img{
-      margin-left: 70px;
+      margin-left: 90px;
     }
     button{
-      margin-right: 50px;
-      margin-top: 10px;
+      position: absolute;
+      right: 20px;
+      top: 35px;
     }
   }
+}
 </style>

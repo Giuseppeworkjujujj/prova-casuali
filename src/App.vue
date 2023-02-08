@@ -20,7 +20,8 @@ import TCinque from './components/TCinque.vue'
 import TSei from './components/TSei.vue'
 import TSette from './components/TSette.vue'
 import TOtto from './components/TOtto.vue'
-
+import '@fortawesome/fontawesome-free/css/all.css'
+import '@fortawesome/fontawesome-free/js/all.js'
 export default {
   name: 'App',
   components: {
@@ -39,8 +40,8 @@ export default {
 
 <style>
 *{
-  padding: 0;
-  margin: 0;
+  padding: 0px;
+  margin: 0px;
   box-sizing: border-box;
 }
 </style>

@@ -50,76 +50,72 @@ export default {
         top: 220px;
         width: 80%;
       }
+    }}
+    @media screen and (max-width:1380px){
+      .row-3{
+      .prima{
+        padding-left: 100px;
+      }
+      .ror{
+        padding-right: 20px;
+      }
     }
-    // @media screen and (max-width:1300px){
-    //   .rar{
-    //   position: absolute;
-    //   display: flex;
-    //   justify-content: center;
-    //   right: 0px;
-    //   // border: 2px solid black;
-    //   height: 460px;
-    //   .prima{
-    //     position: absolute;
-    //     top: 50px;
-    //     width: 100%;
-    //   }
+  }
+    @media screen and (max-width:1175px){
+      .row-3{
+      .raar{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        // padding-left: -150px;
+        margin-top: 150px;
+        .prima{
+          width: 700px;
+        }
+      }
+      .roor{
+        width: 100%;
+        position: absolute;
+        top: 1960px;
+        width: 100%;
+        text-align: center;
 
-    //   }
-    
-    // .ror{
-    //   top: 475px;
-    //   width: 100%;
-    //   display: flex;
-    //   justify-content: center;
-    //   margin-left: 10px;
-    //   margin-right: 10px;
-    //   h3{
-    //     top: -20px;
-    //     width: 100%;
-    //     text-align: center;
-    //   }
-    //   p{
-    //     top: 20px;
-    //     width: 100%;
-    //     text-align: center;
-    //   }  
-    // }
-    // }
-    //   @media screen and (max-width:420px){
-    //     .rar{
-    //   display: flex;
-    //   justify-content: center;
-    //   // border: 2px solid black;
-    //   height: 285px;
-    //   .prima{
-    //     position: absolute;
-    //     top: 20px;
-    //     left: 0px;
-    //     width: 100%;
-    //   }
-
-    //   }
-    
-    // .ror{
-    //   top: 300px;
-    //   width: 100%;
-    //   display: flex;
-    //   justify-content: center;
-    //   margin-left: 10px;
-    //   margin-right: 10px;
-    //   h3{
-    //     top: -15px;
-    //     width: 100%;
-    //     text-align: center;
-    //   }
-    //   p{
-    //     top: 40px;
-    //     width: 100%;
-    //     text-align: center;
-    //   }  
-    // }
-    // }   
-
+        // p{
+        //   margin-top: -40px;
+        // }
+      }
+    }
+    }
+    @media screen and (max-width:750px){
+      .row-3{
+        position: relative;
+        // border: 2px solid green;
+      .raar{
+        // margin-left: 0px;
+        // width: 100%;
+        // display: flex;
+        // justify-content: center;
+        // margin-left: 0px;
+        margin-top: -40px;
+        // border: 2px solid red;
+        height: 280px;
+        .prima{
+          width: 450px;
+          margin-left: -80px;
+          // height: 800px;
+          // position: relative;
+          // top: 10px;
+        }
+      }
+      .roor{
+        // border: 2px solid blue;
+        width: 100%;
+        position: absolute;
+        top: 100px;
+        height: 200px;
+        // width: 100%;
+        text-align: center;
+    }
+    }
   }
 </style>

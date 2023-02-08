@@ -36,4 +36,30 @@ export default {
       margin-top: 20px;
     }
   }
+  @media screen and (max-width:1175px){
+      .roooor{
+        // width: 100%;
+        // display: flex;
+        // justify-content: center;
+        // margin-left: -50px;
+        margin-top: -150px;
+      }
+
+    }
+    @media screen and (max-width:750px){
+      .row-8{
+        background-size: 90%;
+      .roooor{
+        width: 100%;
+        // display: flex;
+        // justify-content: center;
+        // margin-left: -50px;
+        margin-top: -250px;
+        h3{
+          font-size: 20px;
+
+        }
+      }
+    }
+    }
 </style>
